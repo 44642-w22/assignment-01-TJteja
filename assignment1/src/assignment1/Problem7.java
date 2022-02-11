@@ -1,7 +1,7 @@
 package assignment1;
 import java.util.*;
 
-public class Program7 {
+public class Problem7 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

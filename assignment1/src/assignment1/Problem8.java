@@ -6,10 +6,11 @@ public class Problem8 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Deque<Integer> q = new ArrayDeque<>();
-		System.out.println("Enter number of elements:");
+		System.out.println("Enter size of deque: ");
 		int s1=sc.nextInt();
 		for(int i=0;i<s1;i++)
 		{
+			System.out.println("Enter element: ");
 			int ele = sc.nextInt();
 			q.add(ele);
 		}

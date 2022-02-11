@@ -29,10 +29,10 @@ public class Problem6 {
     public static void main(String[] args) {
         Stack stack=new Stack();
         Scanner sc=new Scanner(System.in);
-        System.out.print("How many elements you want to add? ");
+        System.out.print("How many elements do you want to add: ");
         int k=sc.nextInt();                
         for(int i=0;i<k;i++){  
-            System.out.print("Enter the Element no "+(i+1) + "");
+            System.out.print("Enter the Element number "+(i+1) + "");
             stack.push(sc.nextInt());
         }                
         System.out.println(problem06(stack));

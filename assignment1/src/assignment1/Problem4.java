@@ -11,14 +11,14 @@ public class Problem4 {
 		Scanner sc = new Scanner(System.in);
 		ArrayList<String> p = new ArrayList<>();
 		
-		System.out.println("Enter no of strings");
+		System.out.println("Enter the number of strings");
 		int size=sc.nextInt();
 		for (int i=0;i<size;i++) {
-			System.out.println("Enter the string at index "+i);
+			System.out.println("Enter the string at index: "+i);
 			p.add(sc.next());
 		}	
 		
-		System.out.println("Output of (A2)" + prob4(p)); 
+		System.out.println("Output for A2 is: " + prob4(p)); 
 		
 	}
 	

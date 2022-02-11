@@ -6,9 +6,10 @@ public class Problem10 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Deque<Character> q = new ArrayDeque<>();
-		System.out.println("Enter number of characters:");
+		System.out.println("How many characters do you want to add:");
 		int s1=sc.nextInt();
 		for(int i=0;i<s1;i++) {
+			System.out.println("Enter Character:");
 			char c = sc.next().charAt(0);
 			q.add(c);
 		}

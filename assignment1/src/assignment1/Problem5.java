@@ -43,9 +43,9 @@ public class Problem5 {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Input: ");
+		System.out.print("Give input: ");
 		String s = sc.nextLine();
-		System.out.println("Output: " + patternMatch(s));
+		System.out.println("The output is: " + patternMatch(s));
 	}
 
 }

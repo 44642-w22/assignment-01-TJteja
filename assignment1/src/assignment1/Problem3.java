@@ -29,10 +29,10 @@ public class Problem3 {
 	        // TODO code application logic here
 	        Scanner sc=new Scanner(System.in);
 	        ArrayList<Integer> an=new ArrayList<>();
-	        System.out.print("How many elements you want to add?: ");
+	        System.out.print("How many elements do you want to add?: ");
 	        int k=sc.nextInt();                
 	        for(int i=0;i<k;i++){  
-	            System.out.print("Enter the Element: ");
+	            System.out.print("Enter the element: ");
 	            an.add(sc.nextInt());
 	        }        
 	        

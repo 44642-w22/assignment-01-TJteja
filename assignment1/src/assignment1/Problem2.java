@@ -4,16 +4,16 @@ import java.util.*;
 public class Problem2 {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner obj = new Scanner(System.in);
 		List<Integer> l1= new LinkedList<>();
 		System.out.println("Enter number of elements:");
-		int s1=sc.nextInt();
+		int s1=obj.nextInt();
 		for(int i=0;i<s1;i++) {
-			int ele = sc.nextInt();
-			l1.add(ele);
+			int element = obj.nextInt();
+			l1.add(element);
 		}
 		System.out.print("k=");
-		int k = sc.nextInt();
+		int k = obj.nextInt();
 		List<List<Integer>> l2 = getPairSum(l1,k);
 		System.out.println(l2);
 	}

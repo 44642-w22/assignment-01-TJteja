@@ -6,9 +6,10 @@ public class Problem7 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Queue<Integer> q = new LinkedList<>();
-		System.out.println("Enter number of Binary numbers:");
+		System.out.println("How many Binary numbers do you want to add:");
 		int s1=sc.nextInt();
 		for(int i=0;i<s1;i++) {
+			System.out.println("Enter the binary number: ");
 			int ele = sc.nextInt();
 			q.add(ele);
 		}
